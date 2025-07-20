@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+}
+
+.container {
+width:100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+header a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.card a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+header {
+background-color:#1659bf;
+color:white;
+}
+
+header h1 {
+    position: relative;
+    left:16px;
+}
+
+.nav-link {
+    margin-left:16px;
+}
+
+.carousel img {
+    height:600px;
+}
+
+.caption > h2  {
+    color:black;
+    position: relative;
+    bottom:39px;
+    left:44%;
+}
+
+.card-link {
+    display:flex;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:80px;
+}
+
+.card-link img {
+    height:400px;
+    width:90%;
+    padding-right:40px;
+}
+
+.card-instrução {
+    padding-left:30px;
+    padding-right:20px;
+}
+
+.card-instrução ,.util {
+    width:100%;
+    padding-right:35px;
+}
+
+.info {
+    color: blue;
+}
+
+.cards {
+    padding-left:30px ;
+    padding-right:40px ;
+    margin-bottom:120px;
+}
+
+.trix {
+    background-color:#1659bf ;
+}
+
+.footer {
+    font-size:20px ;
+    color:white;
+}
+
+.set{
+    display: grid;
+    grid-template-columns: repeat(3,32.5%);
+    column-gap: 1.29%;
+}
+
+@media screen and (max-width: 767px) {
+.container {
+    width:100%;
+}
+    .maw h1 {
+        font-size:20px;
+        
+    }
+
+.maw img {
+    height:40px;
+    padding-left:3px;
+}
+
+    .link {
+        font-size:8px;
+        position: relative;
+        left:8px ;
+        bottom:8px;
+    }
+
+    .carousel img {
+        height:50%;
+    }
+
+    .card-link {
+        display: block;
+
+    }
+
+    .card-link img {
+        width:100%;
+        padding-left:30px;
+        padding-top:30px;
+        height:50%;
+    }
+
+
+    .card-link {
+        width:100%;
+    }
+
+    .card-link , h1 p { 
+        font-size:10px;
+    }
+
+    .card ,h4 p {
+        font-size:12px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .box {
+        height:20px;
+    }
+
+    .box h2 {
+        font-size:20px;
+        position: relative;
+        bottom:20px;
+    }
+
+    .box p {
+        font-size:16px;
+        position: relative;
+        bottom:20px;
+    }
+
+    .set {
+        display: block;
+    }
+
+    .card {
+        margin-bottom:30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .set  {
+    display: grid;
+    grid-template-columns: repeat(2,49.5%);
+    margin-top:20px;
+}
+
+.card {
+        margin-bottom:30px;
+    }
+
+    .card-link img {
+        width:100%;
+        padding-left:30px;
+    }
+
+    .card-link {
+        display: block;
+    }
+}
